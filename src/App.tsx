@@ -13,6 +13,7 @@ const works: Work[] = [
   { id: 'snack-ad', title: '信息流 · 零食广告', duration: '00:14', note: '零食产品的短视频表达' },
   { id: 'talk-1', title: '真人口播 01', duration: '01:18', note: '口播内容剪辑' },
   { id: 'talk-2', title: '真人口播 02', duration: '01:44', note: '口播内容剪辑' },
+  { id: 'talk-3', title: '真人口播 03', duration: '06:06', note: '口播内容剪辑' },
   { id: 'interview', title: '真人访谈', duration: '00:39', note: '人物对话与观点表达' },
   { id: 'avatar-1', title: '数字人口播 01', duration: '00:40', note: '数字人内容制作' },
   { id: 'avatar-2', title: '数字人口播 02', duration: '00:31', note: '数字人内容制作' },
