@@ -21,7 +21,7 @@ const works: Work[] = [
   { id: 'kingdom', title: '女王的胜利王国', duration: '02:02', note: 'AI 短片创作', wide: true },
   { id: 'heroes', title: '四怪物英雄出场', duration: '00:15', note: 'AI 角色与影像创作', wide: true },
 ];
-const stats = [ ['140+', '参与制作与发布短视频'], ['3W+', '参与运营账号累计涨粉'], ['270W+', '账号单条最高播放量'], ['110+', '制作口播与 Vlog 样片'] ];
+const stats = [ ['140+', '参与制作与发布短视频'], ['3W+', '参与运营账号累计涨粉'], ['370W+', '账号单条最高播放量'], ['110+', '制作口播与 Vlog 样片'] ];
 const base = './';
 const media = (id: string, type = 'mp4') => `${base}media/${id}.${type}`;
 
@@ -171,7 +171,7 @@ export default function App() {
           <span className="eyebrow">CONTENT. CUT. CREATE.</span>
           <h2>我是彭程兴，<br />一名短视频内容创作者。<br /><em className="font-serif">Every frame tells a story.</em></h2>
           <p className="about-copy">参与短视频拍摄、剪辑、文案、发布及账号运营，熟悉内容从制作到发布的完整流程。将 AI 工具应用于选题、文案、视觉生成与视频制作，独立完成 AI 短片创作。</p>
-          <div className="profile-line"><img src={media('portrait', 'webp')} alt="彭程兴的简历照片" width="52" height="66" loading="lazy" decoding="async" /><div><strong>彭程兴</strong><span>短视频运营实习生</span></div><div className="profile-meta"><span><MapPin size={14} /> 北京市</span><span>郑州经贸学院 · 信息管理与信息系统 · 2027 届本科</span></div><a href={media('resume', 'pdf')} download="彭程兴-实习简历.pdf" className="text-link"><Download size={16} /> 下载简历</a></div>
+          <div className="profile-line"><img src={media('portrait', 'webp')} alt="彭程兴的简历照片" width="52" height="66" loading="lazy" decoding="async" /><div><strong>彭程兴</strong><span>短视频运营实习生</span></div><div className="profile-meta"><span><MapPin size={14} /> 北京市</span><span>郑州经贸学院 · 信息管理与信息系统 · 2027 届本科</span></div><a href={media('resume', 'pdf')} download="彭程兴-短视频编导.pdf" className="text-link"><Download size={16} /> 下载简历</a></div>
         </div>
         <div className="stats-grid">{stats.map(([value, label]) => <div key={label}><strong>{value}</strong><p>{label}</p></div>)}</div>
         <div className="experience motion-module" id="experience">
@@ -190,7 +190,7 @@ export default function App() {
 
     <footer id="contact" className="section contact-section motion-module">
       <SectionTitle lines={["LET’S", 'CREATE']} />
-      <div className="contact-main"><div><p className="eyebrow">短视频运营实习 · 视频内容制作</p><h2><em className="font-serif">期待下一次，<br />一起创作。</em></h2><a href={media('resume', 'pdf')} className="pill-button" download="彭程兴-实习简历.pdf">下载完整简历<span><Download size={18} /></span></a></div><address><a href="mailto:709750034@qq.com"><span><Mail size={17} /> 邮箱</span><strong>709750034@qq.com</strong><ArrowUpRight size={20} /></a><a href="tel:+8618736536542"><span><Phone size={17} /> 手机</span><strong>187 3653 6542</strong><ArrowUpRight size={20} /></a><div><span><MapPin size={17} /> 所在地</span><strong>北京市</strong></div></address></div>
+      <div className="contact-main"><div><p className="eyebrow">短视频运营实习 · 视频内容制作</p><h2><em className="font-serif">期待下一次，<br />一起创作。</em></h2><a href={media('resume', 'pdf')} className="pill-button" download="彭程兴-短视频编导.pdf">下载完整简历<span><Download size={18} /></span></a></div><address><a href="mailto:709750034@qq.com"><span><Mail size={17} /> 邮箱</span><strong>709750034@qq.com</strong><ArrowUpRight size={20} /></a><a href="tel:+8618736536542"><span><Phone size={17} /> 手机</span><strong>187 3653 6542</strong><ArrowUpRight size={20} /></a><div><span><MapPin size={17} /> 所在地</span><strong>北京市</strong></div></address></div>
     </footer>
     </div>
 
